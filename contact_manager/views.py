@@ -29,7 +29,6 @@ class ContactDetailView(DetailView):
         return self.render_to_response(context)
 
 
-
 class ContactCreateView(CreateView):
     model = Contact
     form_class = ContactForm
